@@ -6,6 +6,7 @@
   <title>O Campo Produz, a Cidade Consome</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 <body class="bg-green-50 text-gray-800 font-sans">
   <header class="bg-green-700 text-white p-6 text-center shadow-md">
@@ -18,11 +19,11 @@
     <section class="max-w-4xl mx-auto" id="secao1">
       <h2 class="text-3xl font-bold mb-4">A importância do campo na produção de alimentos</h2>
       <p class="text-lg leading-relaxed">
-       O campo desempenha um papel fundamental na produção de alimentos em todo o mundo. No Brasil, a agricultura e a pecuária representam não apenas uma parte significativa do Produto Interno Bruto (PIB), mas também são responsáveis pela geração de milhões de empregos e pela exportação de uma vasta gama de produtos agrícolas. O uso de tecnologias avançadas tem sido um diferencial na eficiência e sustentabilidade da produção rural, permitindo que, mesmo com o aumento da demanda, a expansão de terras agrícolas seja controlada.
+        O campo desempenha um papel fundamental na produção de alimentos em todo o mundo. No Brasil, a agricultura e a pecuária representam não apenas uma parte significativa do Produto Interno Bruto (PIB), mas também são responsáveis pela geração de milhões de empregos e pela exportação de uma vasta gama de produtos agrícolas. O uso de tecnologias avançadas tem sido um diferencial na eficiência e sustentabilidade da produção rural, permitindo que, mesmo com o aumento da demanda, a expansão de terras agrícolas seja controlada.
 
-Além disso, a produção no campo garante o abastecimento constante de alimentos nas cidades e é crucial para a estabilidade econômica, ajudando a manter os preços acessíveis para os consumidores urbanos.
+        Além disso, a produção no campo garante o abastecimento constante de alimentos nas cidades e é crucial para a estabilidade econômica, ajudando a manter os preços acessíveis para os consumidores urbanos.
       </p>
-      <p class="text-sm mt-4 text-gray-500">Fonte: https://www.embrapa.br/busca-de-noticias/-/noticia/31640057/artigo---inovacao-no-campo-mais-alimento-a-mesa-do-brasileiro</p>
+      <p class="text-sm mt-4 text-gray-500">Fonte: <a href="https://www.embrapa.br/busca-de-noticias/-/noticia/31640057/artigo---inovacao-no-campo-mais-alimento-a-mesa-do-brasileiro" target="_blank" class="text-blue-500">Embrapa</a></p>
     </section>
 
     <section class="max-w-4xl mx-auto" id="secao2">
@@ -30,9 +31,9 @@ Além disso, a produção no campo garante o abastecimento constante de alimento
       <p class="text-lg leading-relaxed">
         As cidades brasileiras têm um papel central no consumo e valorização dos produtos alimentares. Elas concentram grande parte da população e geram a maior parte da demanda por alimentos, o que influencia diretamente os padrões de consumo. Nesse contexto, a valorização dos alimentos locais tem se mostrado uma tendência crescente, com iniciativas que visam aproximar os consumidores urbanos dos produtores rurais.
 
-A busca por alimentos mais frescos e orgânicos, bem como o incentivo ao consumo de produtos locais, está se tornando cada vez mais relevante, pois contribui para a economia local e para a sustentabilidade.
+        A busca por alimentos mais frescos e orgânicos, bem como o incentivo ao consumo de produtos locais, está se tornando cada vez mais relevante, pois contribui para a economia local e para a sustentabilidade.
       </p>
-      <p class="text-sm mt-4 text-gray-500">Fonte: https://www.embrapa.br/en/alimentos-e-territorios/areas-de-atuacao/cidades-e-alimentacao</p>
+      <p class="text-sm mt-4 text-gray-500">Fonte: <a href="https://www.embrapa.br/en/alimentos-e-territorios/areas-de-atuacao/cidades-e-alimentacao" target="_blank" class="text-blue-500">Embrapa</a></p>
     </section>
 
     <section class="max-w-4xl mx-auto" id="secao3">
@@ -40,9 +41,9 @@ A busca por alimentos mais frescos e orgânicos, bem como o incentivo ao consumo
       <p class="text-lg leading-relaxed">
         A conexão entre campo e cidade será essencial para a construção de um sistema alimentar sustentável no futuro. A integração dos produtores rurais com os consumidores urbanos, por meio de iniciativas como as Comunidades que Sustentam a Agricultura (CSA), tem se mostrado uma estratégia eficaz para fortalecer a segurança alimentar e promover a sustentabilidade.
 
-Tecnologias como plataformas digitais também têm permitido que os produtores rurais se conectem diretamente com os mercados urbanos, criando redes de distribuição mais eficientes e justas, além de incentivar práticas agrícolas sustentáveis.
+        Tecnologias como plataformas digitais também têm permitido que os produtores rurais se conectem diretamente com os mercados urbanos, criando redes de distribuição mais eficientes e justas, além de incentivar práticas agrícolas sustentáveis.
       </p>
-      <p class="text-sm mt-4 text-gray-500">Fonte: https://pt.wikipedia.org/wiki/Comunidade_que_sustenta_a_agricultura</p>
+      <p class="text-sm mt-4 text-gray-500">Fonte: <a href="https://pt.wikipedia.org/wiki/Comunidade_que_sustenta_a_agricultura" target="_blank" class="text-blue-500">Wikipedia</a></p>
     </section>
 
     <section class="max-w-4xl mx-auto" id="galeria">
@@ -50,22 +51,25 @@ Tecnologias como plataformas digitais também têm permitido que os produtores r
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="bg-white rounded shadow p-4">
           <img src="campo.jpg" alt="Imagem do campo" class="w-full h-48 object-cover rounded mb-2">
-          <p class="text-sm text-gray-500">Fonte: https://pxhere.com/pt/photo/129058?utm_content=shareClip&utm_medium
-            =referral&utm_source=pxhere</p>
+          <p class="text-sm text-gray-500">Fonte: <a href="https://pxhere.com/pt/photo/129058?utm_content=shareClip&utm_medium=referral&utm_source=pxhere" target="_blank" class="text-blue-500">Pxhere</a></p>
         </div>
         <div class="bg-white rounded shadow p-4">
           <img src="fotodacidade.jpg" alt="Imagem da cidade" class="w-full h-48 object-cover rounded mb-2">
-          <p class="text-sm text-gray-500">Fonte: https://upload.wikimedia.org/wikipedia/co
-mmons/3/3b/FOTOS_DA_CIDADE_DE_SAN
-TA_TEREZINHA_-_PE.jpg</p>
+          <p class="text-sm text-gray-500">Fonte: <a href="https://upload.wikimedia.org/wikipedia/commons/3/3b/FOTOS_DA_CIDADE_DE_SANTA_TEREZINHA_-_PE.jpg" target="_blank" class="text-blue-500">Wikimedia Commons</a></p>
         </div>
         <div class="bg-white rounded shadow p-4">
           <img src="feiraurbana.jpg" alt="Feira urbana" class="w-full h-48 object-cover rounded mb-2">
-          <p class="text-sm text-gray-500">Fonte: https://upload.wikimedia.org/wikipedia/co
-mmons/5/5f/Feira_Livre_%28Largo_da_Epa
-tur%2C_Porto_Alegre%2C_Brasil%29_1.jpg</p>
+          <p class="text-sm text-gray-500">Fonte: <a href="https://upload.wikimedia.org/wikipedia/commons/5/5f/Feira_Livre_%28Largo_da_Epat%C2%ADur%2C_Porto_Alegre%2C_Brasil%29_1.jpg" target="_blank" class="text-blue-500">Wikimedia Commons</a></p>
         </div>
       </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto" id="secao-p5">
+      <h2 class="text-3xl font-bold mb-4">Links Interativos</h2>
+      <p class="text-lg leading-relaxed">
+        Aqui você pode interagir com alguns links através de nossa plataforma p5.js!
+      </p>
+      <div id="p5-links"></div>
     </section>
 
   </main>
@@ -75,10 +79,26 @@ tur%2C_Porto_Alegre%2C_Brasil%29_1.jpg</p>
   </footer>
 
   <script>
+    function setup() {
+      noCanvas();
+      let link1 = createA('https://www.embrapa.br/busca-de-noticias/-/noticia/31640057/artigo---inovacao-no-campo-mais-alimento-a-mesa-do-brasileiro', 'A importância do campo na produção de alimentos');
+      link1.position(100, 300);
+      link1.class('text-blue-500');
+      
+      let link2 = createA('https://www.embrapa.br/en/alimentos-e-territorios/areas-de-atuacao/cidades-e-alimentacao', 'O papel da cidade no consumo e valorização');
+      link2.position(100, 350);
+      link2.class('text-blue-500');
+      
+      let link3 = createA('https://pt.wikipedia.org/wiki/Comunidade_que_sustenta_a_agricultura', 'Conexão necessária para o futuro');
+      link3.position(100, 400);
+      link3.class('text-blue-500');
+    }
+
     ScrollReveal().reveal('#secao1', { delay: 200, distance: '50px', origin: 'bottom' });
     ScrollReveal().reveal('#secao2', { delay: 400, distance: '50px', origin: 'bottom' });
     ScrollReveal().reveal('#secao3', { delay: 600, distance: '50px', origin: 'bottom' });
     ScrollReveal().reveal('#galeria', { delay: 800, distance: '50px', origin: 'bottom' });
+    ScrollReveal().reveal('#secao-p5', { delay: 1000, distance: '50px', origin: 'bottom' });
   </script>
 </body>
 </html>
